@@ -1,7 +1,7 @@
 const products = [
   {
     name: "پودر فلفل سیاه ",
-    image: "./images/felfel-siah.jpg",
+    image: "./images/felfel-siah.webp",
     available: true,
     variants: [
       { weight: "100 گرم", price: "110,000 تومان" }
@@ -10,7 +10,7 @@ const products = [
   },
   {
     name: "پودر فلفل قرمز ",
-    image: "./images/felfel-ghermez.jpg",
+    image: "./images/felfel-ghermez.webp",
     available: true,
     variants: [
       { weight: "100 گرم", price: "80,000 تومان" }
@@ -19,7 +19,7 @@ const products = [
   },
   {
     name: "پودر زردچوبه ",
-    image: "./images/zardchoobe.jpg",
+    image: "./images/zardchoobe.webp",
     available: true,
     variants: [
       { weight: "100 گرم", price: "50,000 تومان" }
@@ -28,7 +28,7 @@ const products = [
   },
   {
     name: "پودر دارچین ",
-    image: "./images/drchin.jpg",
+    image: "./images/drchin.webp",
     available: true,
     variants: [
       { weight: "100 گرم", price: "50,000 تومان" }
@@ -37,7 +37,7 @@ const products = [
   },
   {
     name: "پودر زنجبیل ",
-    image: "./images/zanjebil.jpg",
+    image: "./images/zanjebil.webp",
     available: true,
     variants: [
       { weight: "100 گرم", price: "80,000 تومان" }
@@ -46,7 +46,7 @@ const products = [
   },
   {
     name: "هل  سبز درشت",
-    image: "./images/hel.jpg",
+    image: "./images/hel.webp",
     available: true,
     variants: [
       { weight: "20 گرم", price: "120,000 تومان" }
@@ -55,7 +55,7 @@ const products = [
   },
   {
     name: "کنجد",
-    image: "./images/konjed.jpg",
+    image: "./images/konjed.webp",
     available: true,
     variants: [
       { weight: "250 گرم", price: "100,000 تومان" }
@@ -73,7 +73,7 @@ const products = [
   },
   {
     name: "دانه فلفل سیاه",
-    image: "./images/felfel-siah-doone.jpg",
+    image: "./images/felfel-siah-doone.webp",
     available: true,
     variants: [
       { weight: "100 گرم", price: "120,000 تومان" }
@@ -82,7 +82,7 @@ const products = [
   },
   {
     name: "سماق آسیاب شده",
-    image: "./images/somagh.jpg",
+    image: "./images/somagh.webp",
     available: true,
     variants: [
       { weight: "100 گرم", price: "90,000 تومان" }
@@ -91,7 +91,7 @@ const products = [
   },
   {
     name: "چوب دارچین لوله ای",
-    image: "./images/chhob-drchin.jpg",
+    image: "./images/chhob-drchin.webp",
     available: true,
     variants: [
       { weight: "50 گرم", price: "50,000 تومان" }
@@ -100,7 +100,7 @@ const products = [
   },
   {
     name: "اسفند (اسپند)",
-    image: "./images/esfand.jpg",
+    image: "./images/esfand.webp",
     available: true,
     variants: [
       { weight: "200 گرم", price: "30,000 تومان" }
@@ -109,7 +109,7 @@ const products = [
   },
   {
     name: "خاکشیر ",
-    image: "./images/khakshir.jpg",
+    image: "./images/khakshir.webp",
     available: true,
     variants: [
       { weight: "300 گرم", price: "100,000 تومان" }
@@ -118,7 +118,7 @@ const products = [
   },
   {
     name: "تخم شربتی بالنگو ",
-    image: "./images/tokhm-sharbati.jpg",
+    image: "./images/tokhm-sharbati.webp",
     available: true,
     variants: [
       { weight: "300 گرم", price: "100,000 تومان" }
@@ -231,5 +231,5 @@ document.querySelectorAll('.card').forEach(card => {
 function orderProduct(productName) {
   const phone = "09197148201";
   const message = encodeURIComponent(`سلام وقت بخیر من محصول ${productName},${products.weight} میخواستم`);
-  window.location.href = (`sms:${phone}?&body=${encodeURIComponent(message)}`);
+  window.location.href = `https://wa.me/${phone}?&text=${message}`;
 }
