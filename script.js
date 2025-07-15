@@ -230,6 +230,6 @@ document.querySelectorAll('.card').forEach(card => {
 
 function orderProduct(productName) {
   const phone = "09197148201";
-  const message = encodeURIComponent(`سلام وقت بخیر من محصول ${productName},${products.weight} میخواستم`);
+  const message = encodeURIComponent(`سلام وقت بخیر من محصول ${productName} میخواستم`);
   window.location.href = `https://wa.me/${phone}?&text=${message}`;
 }
