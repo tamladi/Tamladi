@@ -4,7 +4,7 @@ const products = [
     image: "./images/felfel-siah.webp",
     available: true,
     variants: [
-      { weight: "100 گرم", price: "110,000 تومان" }
+      { weight: "100 گرم", price: "140,000 تومان" }
     ],
     description: "پودر فلفل سیاه سرشار از آنتی‌اکسیدان و ترکیبات ضدالتهابی مثل پیپِرین است که می‌تواند به هضم غذا کمک کرده، جذب مواد مغذی را افزایش دهد و سیستم ایمنی را تقویت کند  . این ادویه از قدیم برای تسکین درد و بهبود عملکرد مغز کاربرد داشته  ."
   },
@@ -13,7 +13,7 @@ const products = [
     image: "./images/felfel-ghermez.webp",
     available: true,
     variants: [
-      { weight: "100 گرم", price: "80,000 تومان" }
+      { weight: "100 گرم", price: "110,000 تومان" }
     ],
     description: "پودر فلفل قرمز دارای کیپسایسین است که متابولیسم بدن را تسریع کرده و اثرات ضدالتهابی دارد. همچنین می‌تواند به افزایش سلامت قلب، کنترل فشار خون و بهبود هضم کمک کند  . در عین حال دقت کنید مصرف زیاد ممکن است باعث سوزش دستگاه گوارش شود  ."
   },
@@ -22,7 +22,7 @@ const products = [
     image: "./images/zardchoobe.webp",
     available: true,
     variants: [
-      { weight: "100 گرم", price: "50,000 تومان" }
+      { weight: "100 گرم", price: "70,000 تومان" }
     ],
     description: "زردچوبه سرشار از کورکومین است؛ ترکیبی قدرتمند با خاصیت ضدالتهابی و آنتی‌اکسیدانی که می‌تواند در کاهش درد مفاصل، محافظت از قلب و عملکرد مغز مؤثر باشد  . برای جذب بهتر، مصرف همراه با فلفل سیاه توصیه می‌شود  . از مصرف بیش از حد پودر یا مکمل بدون مشورت با پزشک خودداری کنید  ."
   },
@@ -31,7 +31,7 @@ const products = [
     image: "./images/drchin.webp",
     available: true,
     variants: [
-      { weight: "100 گرم", price: "50,000 تومان" }
+      { weight: "100 گرم", price: "70,000 تومان" }
     ],
     description: "دارچین یک منبع عالی آنتی‌اکسیدان و ضدالتهاب است. مصرف روزانه آن می‌تواند به کنترل قند خون، کاهش کلسترول و سلامت قلب کمک کند  . همچنین خواص ضدباکتریایی دارد و در برخی موارد با تسکین دردهای ماهانه همراه بوده  ."
   },
@@ -40,7 +40,7 @@ const products = [
     image: "./images/zanjebil.webp",
     available: true,
     variants: [
-      { weight: "100 گرم", price: "80,000 تومان" }
+      { weight: "100 گرم", price: "110,000 تومان" }
     ],
     description: "زنجبیل با ترکیبات فعال مانند جینجرول و شوگاول‌ها معروف است. این ادویه به‌ویژه برای کاهش تهوع، بهبود هضم، ضدالتهاب و تقویت سیستم ایمنی مؤثره  . همچنین برای تسکین درد عضلانی و سلامت قلب توصیه می‌شه  ."
   },
@@ -49,14 +49,14 @@ const products = [
     image: "./images/hel.webp",
     available: true,
     variants: [
-      { weight: "20 گرم", price: "120,000 تومان" }
+      { weight: "20 گرم", price: "150,000 تومان" }
     ],
     description: "هل سبز منبع خوبی از آنتی‌اکسیدان‌هاست و خواص دیورتیک و کاهش فشار خون داره  . مطالعات نشون می‌ده می‌تونه در مبارزه با سلول‌های سرطانی مؤثر باشه و حتی در درمان افسردگی و سلامت روان نقش داشته باشه  ."
   },
   {
     name: "کنجد",
     image: "./images/konjed.webp",
-    available: true,
+    available: false,
     variants: [
       { weight: "250 گرم", price: "100,000 تومان" }
     ],
@@ -76,7 +76,7 @@ const products = [
     image: "./images/felfel-siah-doone.webp",
     available: true,
     variants: [
-      { weight: "100 گرم", price: "120,000 تومان" }
+      { weight: "100 گرم", price: "150,000 تومان" }
     ],
     description: "مشابه پودر فلفل سیاه، دانه آن نیز منبع غنی از پیپِرینه. کمک به هضم، کاهش التهاب و افزایش جذب مواد مغذی از جمله خواص اون هست  ."
   },
@@ -85,7 +85,7 @@ const products = [
     image: "./images/somagh.webp",
     available: true,
     variants: [
-      { weight: "100 گرم", price: "90,000 تومان" }
+      { weight: "100 گرم", price: "120,000 تومان" }
     ],
     description: "سماق سرشار از آنتی‌اکسیدانه و از نظر طعم، اسیدی‌تر از ادویه‌های دیگره. مطالعات نشون داده سماق می‌تواند در کنترل قند خون و کاهش التهاب مؤثر باشه "
   },
@@ -94,7 +94,7 @@ const products = [
     image: "./images/chhob-drchin.webp",
     available: true,
     variants: [
-      { weight: "50 گرم", price: "50,000 تومان" }
+      { weight: "50 گرم", price: "70,000 تومان" }
     ],
     description: "چوب دارچین مشابه پودر دارچین خواص مشابه دارد: آنتی‌اکسیدان‌، ضدالتهاب، بهبود قند و کلسترول خون  . مخصوصاً برای دم‌کردن چای یا شربت بسیار کاربردی‌ست."
   },
@@ -103,14 +103,14 @@ const products = [
     image: "./images/esfand.webp",
     available: true,
     variants: [
-      { weight: "200 گرم", price: "30,000 تومان" }
+      { weight: "200 گرم", price: "80,000 تومان" }
     ],
     description: "اسفند در طب سنتی ایران به‌عنوان ضدباکتری، ضدانگل و برای دفع چشم بد مصرف می‌شه. تحقیقات رسمی کمی در منابع غربی داره، ولی در طب سنتی خواص آن مورد توجه بوده است."
   },
   {
     name: "خاکشیر ",
     image: "./images/khakshir.webp",
-    available: true,
+    available: false,
     variants: [
       { weight: "300 گرم", price: "100,000 تومان" }
     ],
@@ -119,7 +119,7 @@ const products = [
   {
     name: "تخم شربتی بالنگو ",
     image: "./images/tokhm-sharbati.webp",
-    available: true,
+    available: false,
     variants: [
       { weight: "300 گرم", price: "100,000 تومان" }
     ],
@@ -215,7 +215,7 @@ products.forEach(product => {
   } else {
     const soon = document.createElement("p");
     soon.className = "coming-soon";
-    soon.textContent = "به‌زودی موجود می‌شود";
+    soon.textContent = "درحال تأمین";
     card.appendChild(soon);
   }
   // اضافه کردن کارت به کانتینر
