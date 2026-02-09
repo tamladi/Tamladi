@@ -22,7 +22,7 @@ const products = [
     image: "./images/zardchoobe.webp",
     available: true,
     variants: [
-      { weight: "100 گرم", price: "70,000 تومان" }
+      { weight: "100 گرم", price: "80,000 تومان" }
     ],
     description: "زردچوبه سرشار از کورکومین است؛ ترکیبی قدرتمند با خاصیت ضدالتهابی و آنتی‌اکسیدانی که می‌تواند در کاهش درد مفاصل، محافظت از قلب و عملکرد مغز مؤثر باشد  . برای جذب بهتر، مصرف همراه با فلفل سیاه توصیه می‌شود  . از مصرف بیش از حد پودر یا مکمل بدون مشورت با پزشک خودداری کنید  ."
   },
@@ -233,3 +233,4 @@ function orderProduct(productName) {
   const message = encodeURIComponent(`سلام وقت بخیر من محصول ${productName} میخواستم`);
   window.location.href = `https://wa.me/${phone}?&text=${message}`;
 }
+
